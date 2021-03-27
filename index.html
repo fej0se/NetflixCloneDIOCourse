@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" integrity="sha512-nIm/JGUwrzblLex/meoxJSPdAKQOe2bLhnrZ81g5Jbh519z8GFJIWu87WAhBH+RAyGbM4+U3S2h+kL5JoV6/wA==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo" id="logo">NETFLIX</h2>
+            <nav>
+                <a href="/">Inicio</a>
+                <a href="/series">Séries</a>
+                <a href="/filmes">Filmes</a>
+                <a href="/docs">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <div class="filme-principal">
+
+            <div class="container" id="campo">
+                
+                <h3 class="titulo">The Flash 5º Temporada</h3>
+                <p class="descricao">Barry enfrenta diversos assassinos que invadem a premiação onde ele acompanha Iris,
+                    mas os efeitos colaterais de seus novos superpoderes representam uma ameaça.</p>
+                <div class="botoes">
+                    <a role="button" class="botao" id="botao1" href="https://www.youtube.com/watch?v=Eunrm_b_EWs">
+                        <i class="fas fa-play"></i>
+
+                        ASSISTIR TRAILER</a>
+                    <button role="button" class="botao"><i class="fas fa-info-circle"></i> VEJA MAIS</button>
+
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="./img/mini1.jpg" alt="" class="box-filmes">
+            </div>
+            <div class="item">
+                <img src="./img/mini2.jpg" alt="" class="box-filmes">
+            </div>
+            <div class="item">
+                <img src="./img/mini3.jpg" alt="" class="box-filmes">
+            </div>
+            <div class="item">
+                <img src="./img/mini4.jpg" alt="" class="box-filmes">
+            </div>
+            <div class="item">
+                <img src="./img/mini5.jpg" alt="" class="box-filmes">
+            </div>
+            <div class="item">
+                <img src="./img/mini6.jpg" alt="" class="box-filmes">
+            </div>
+            <div class="item">
+                <img src="./img/mini7.jpg" alt="" class="box-filmes">
+            </div>
+            <div class="item">
+                <img src="./img/mini8.jpg" alt="" class="box-filmes">
+            </div>
+            <div class="item">
+                <img src="./img/mini9.jpg" alt="" class="box-filmes">
+            </div>
+            <div class="item">
+                <img src="./img/mini10.jpg" alt="" class="box-filmes">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/owl/jquery.min.js"></script>
+<script src="./js/owl/owl.carousel.min.js"></script>
+<script src="./js/owl/setup.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+	$('.botao, .popup-vimeo, .popup-gmaps').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+
+		fixedContentPos: false
+	});
+});
+</script>
+</html>
